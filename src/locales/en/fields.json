@@ -1,0 +1,798 @@
+{
+  "employee": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "shortName": "Short Name",
+    "nameAcronym": "Initials",
+    "comments": "Comments",
+    "photo": "Photo",
+    "address": "Address",
+    "locality": "Locality",
+    "village": "Parish",
+    "district": "District",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "E-Mail",
+    "birthday": "Birthdate",
+    "gender": "Gender",
+    "biValidity": "ID Validity",
+    "nif": "Tax ID",
+    "admissionDate": "Admission Date",
+    "exitDate": "Exit Date",
+    "rgpdAut": "GDPR Authorization",
+    "status": "Status",
+    "statusEmail": "Email Status",
+    "statusFprint": "Fingerprint Status",
+    "statusFace": "Face Status",
+    "statusPalm": "Palm Status",
+    "type": "Type",
+    "cardNumber": "Card Number",
+    "entidadeId": "Entity",
+    "departmentId": "Department",
+    "professionId": "Profession",
+    "categoryId": "Category",
+    "groupId": "Group",
+    "zoneId": "Zone",
+    "externalEntityId": "External Entity",
+    "accPlanoAcessoId": "Access Plan",
+    "attPlanoTrabalhoId": "Work Plan",
+    "responsavelIds": "Responsible",
+    "subordinadoIds": "Subordinates",
+    "bldObraIds": "Cost Center"
+  },
+  "department": {
+    "code": "Code",
+    "name": "Name",
+    "description": "Description"
+  },
+  "category": {
+    "code": "Code",
+    "description": "Description"
+  },
+  "externalEntity": {
+    "name": "Name",
+    "comments": "Comments",
+    "commercialName": "Commercial Name",
+    "responsibleName": "Responsible Person",
+    "photo": "Photo",
+    "address": "Address",
+    "zipCode": "ZIP Code",
+    "locality": "Locality",
+    "village": "Parish",
+    "district": "District",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "E-Mail",
+    "www": "Website",
+    "fax": "Fax",
+    "nif": "Tax ID",
+    "dateInserted": "Date Inserted",
+    "dateUpdated": "Date Updated",
+    "externalEntityTypeId": "Type"
+  },
+  "externalEntityType": {
+    "name": "Name",
+    "dateInserted": "Date"
+  },
+  "group": {
+    "name": "Name",
+    "description": "Description"
+  },
+  "profession": {
+    "code": "Code",
+    "description": "Description"
+  },
+  "zone": {
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "photo": "Photo",
+    "address": "Address",
+    "locality": "Locality",
+    "village": "Parish",
+    "district": "District",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "E-Mail"
+  },
+  "employeeAttendanceTimes": {
+    "attendanceTime": "Date",
+    "attendanceDate": "Date",
+    "attendanceHour": "Hour",
+    "enrollNumber": "Number",
+    "employeeId": "Employee Name",
+    "employeeName": "Name",
+    "inOutMode": "Movement Type",
+    "observation": "Observation",
+    "type": "Type",
+    "workCode": "Work Code",
+    "deviceName": "Device Name",
+    "deviceId": "Device",
+    "deviceNumber": "Device Number",
+    "verifyMode": "Verification Mode",
+    "buildId": "Cost Center",
+    "responsavelId": "Responsible"
+  },
+  "device": {
+    "deviceNumber": "Number",
+    "deviceName": "Name",
+    "status": "Status",
+    "model": "Model",
+    "ipAddress": "IP Address",
+    "ipServidor": "Server IP",
+    "port": "Port",
+    "photo": "Photo",
+    "code": "Code",
+    "platform": "Platform",
+    "firmware": "Firmware",
+    "macAddress": "MAC Address",
+    "serialNumber": "Serial Number",
+    "readerCount": "Reader Count",
+    "auxInCount": "Aux In Count",
+    "auxOutCount": "Aux Out Count",
+    "maxUserCount": "Max User Count",
+    "maxAttLogCount": "Max Attendance Log Count",
+    "maxFingerCount": "Max Fingerprint Count",
+    "maxUserFingerCount": "Max User Finger Count",
+    "faceAlg": "Face Algorithm",
+    "fpAlg": "Fingerprint Algorithm",
+    "productTime": "Production Time",
+    "producter": "Manufacturer",
+    "deviceProtocol": "Protocol",
+    "deviceType": "Type",
+    "enabled": "Enabled"
+  },
+  "employeeDevice": {
+    "deviceNumber": "Device Number",
+    "deviceName": "Device Name",
+    "enrollNumber": "Number",
+    "employeeName": "Name",
+    "startTime": "Start Time",
+    "endTime": "End Time"
+  },
+  "employeeCard": {
+    "cardNumber": "Card Number",
+    "devicePassword": "Device Password",
+    "devicePrivelage": "Device Admin"
+  },
+  "ads": {
+    "createDate": "Creation Date",
+    "tempoExecucaoImagens": "Image Execution Time",
+    "dataFim": "End Date",
+    "updateDate": "Update Date"
+  },
+  "transaction": {
+    "eventTime": "Date",
+    "cardNo": "Card Number",
+    "eventName": "Event Name",
+    "eventDoorId": "Type",
+    "deviceSN": "Location Name",
+    "createTime": "Creation Date",
+    "updateTime": "Update Date"
+  },
+  "transactionMB": {
+    "transactionType": "Transaction Type",
+    "amount": "Amount",
+    "statusMessage": "Status Message",
+    "clientTicket": "Client Ticket",
+    "merchantTicket": "Merchant Ticket",
+    "email": "E-Mail",
+    "timestamp": "Date",
+    "tpId": "Terminal",
+    "deviceSN": "Location Name"
+  },
+  "transactionCard": {
+    "eventDoorId": "Transaction Type",
+    "pin": "User Number",
+    "cardNo": "Card Number",
+    "nameUser": "User Name",
+    "eventName": "Event Name",
+    "deviceSN": "Location Name",
+    "eventTime": "Date"
+  },
+  "transactionVP": {
+    "eventDoorId": "Transaction Type",
+    "pin": "User Number",
+    "cardNo": "Card Number",
+    "nameUser": "User Name",
+    "eventName": "Event Name",
+    "deviceSN": "Location Name",
+    "eventTime": "Date"
+  },
+  "register": {
+    "name": "Name",
+    "userName": "Username",
+    "emailAddress": "E-Mail Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "roles": "Account Type",
+    "profileImage": "Photo"
+  },
+  "emailCompany": {
+    "responsibleName": "Responsible Person",
+    "language": "Language"
+  },
+  "timePeriod": {
+    "createrName": "Creator Name",
+    "name": "Name"
+  },
+  "door": {
+    "time": "Open Time"
+  },
+  "accessControl": {
+    "nome": "Name",
+    "tipo": "Type",
+    "tipoVerificacao": "Verification Type",
+    "verificacaoFixa": "Fixed Verification",
+    "dataInicio": "Start Date",
+    "dataFim": "End Date",
+    "opc": "OPC",
+    "activo": "Active",
+    "saldoZonaCarregamento": "Load Zone Balance",
+    "saldoZonaLotacao": "Capacity Zone Balance",
+    "asWithAc": "AS with AC",
+    "acOutWithAs": "AC Exit with AS",
+    "acOutWithAsOffset": "AC Exit with AS Offset",
+    "masterOnline": "Master Online",
+    "respAuthOnline": "Online Auth Response",
+    "respAuthOnlineOffset": "Online Auth Response Offset",
+    "acGrpHR": "AC HR Group",
+    "OConfig": "Configuration",
+    "createdDate": "Creation Date",
+    "rem": "REM"
+  },
+  "planosAcessoDispositivos": {
+    "nomePlanoAcesso": "Access Plan",
+    "nomeTerminal": "Terminal",
+    "nomePlanoHorario": "Schedule Plan",
+    "nivel": "Level",
+    "nomePorta": "Doors"
+  },
+  "doors": {
+    "actionInterval": "Action Interval",
+    "activeTimesegId": "Active Time Segment",
+    "allowSuaccessLock": "Allow SU Access to Lock",
+    "backLock": "Lock State",
+    "combopenInterval": "Identification Interval",
+    "delayOpenTime": "Open Delay",
+    "doorNo": "Door Number",
+    "doorSensorStatus": "Door Sensor Type",
+    "enabled": "Enabled",
+    "extDevId": "External Device",
+    "forcePwd": "Duress Password",
+    "inApbDuration": "Anti-passback Duration",
+    "lockDelay": "Lock Open Delay",
+    "name": "Door Name",
+    "passmodeTimesegId": "Pass Mode Time Segment",
+    "sensorDelay": "Sensor Delay",
+    "supperPwd": "Emergency Password",
+    "verifyMode": "Verification Mode",
+    "devId": "Device"
+  },
+  "mbDevice": {
+    "modelo": "Model"
+  },
+  "mbDeviceStatus": {
+    "tpId": "Terminal"
+  },
+  "mbDeviceCloseOpen": {
+    "tpId": "Terminal",
+    "timestamp": "Timestamp"
+  },
+  "entity": {
+    "nome": "Name",
+    "morada": "Address",
+    "localidade": "Locality",
+    "email": "E-Mail",
+    "nif": "Tax ID",
+    "www": "Website",
+    "observacoes": "Remarks",
+    "createdDate": "Creation Date",
+    "updatedDate": "Update Date",
+    "enabled": "Enabled"
+  },
+  "recolhaMoedeiroEContador": {
+    "dataFimRecolha": "Record Date",
+    "pessoaResponsavel": "Responsible User",
+    "numeroMoedas": "Coins Collected",
+    "numeroMoedasSistema": "System Coins",
+    "valorTotalRecolhido": "Total Collected",
+    "valorTotalSistema": "System Total",
+    "diferencaMoedas": "Coin Difference",
+    "diferencaEuros": "Amount Difference",
+    "observacoes": "Remarks",
+    "deviceID": "Location Name",
+    "dataRecolha": "Last Collection Date"
+  },
+  "manualOpenDoor": {
+    "createdDate": "Date",
+    "createdTime": "Time",
+    "nomeResponsavel": "Responsible User",
+    "observacoes": "Remarks",
+    "doorName": "Door",
+    "tipo": "Type",
+    "deviceName": "Location Name",
+    "nomeEvento": "Event Name"
+  },
+  "limpezasEOcorrencias": {
+    "observacoes": "Remarks",
+    "deviceId": "Location Name"
+  },
+  "logs": {
+    "createdDate": "Date",
+    "userName": "User Name",
+    "taskName": "Task Name",
+    "description": "Description"
+  },
+  "camera": {
+    "createdDate": "Creation Date",
+    "numeroCamera": "Number",
+    "nomeCamera": "Name",
+    "ip": "IP",
+    "url": "URL",
+    "userCamera": "User",
+    "passwordCamera": "Password",
+    "updatedDate": "Update Date"
+  },
+  "employeesOnDevice": {
+    "pin": "Number",
+    "name": "Name",
+    "cardNo": "Card Number"
+  },
+  "kioskConfig": {
+    "amount": "Amount"
+  },
+  "auxOut": {
+    "time": "Open Time"
+  },
+  "auxiliaries": {
+    "nome": "Auxiliary Name",
+    "deviceId": "Device",
+    "enabled": "Enabled"
+  },
+  "reset": {
+    "deviceId": "Location Name",
+    "observation": "Observation"
+  },
+  "counter": {
+    "eventTime": "Date",
+    "pin": "User Number",
+    "nameUser": "User Name",
+    "deviceSN": "Location Name",
+    "cardNo": "Card Number",
+    "eventName": "Event Name"
+  },
+  "newTransactionCard": {
+    "eventTime": "Date",
+    "pin": "User Number",
+    "cardNo": "Card Number",
+    "deviceSN": "Location Name",
+    "eventDoorId": "Turnstile"
+  },
+  "timePlan": {
+    "nome": "Name",
+    "descricao": "Description"
+  },
+  "accesses": {
+    "eventDate": "Date",
+    "eventTime": "Hour",
+    "pin": "Number",
+    "cardNo": "Card",
+    "nameUser": "Name",
+    "deviceName": "Location Name",
+    "eventDoorId": "Door",
+    "eventDoorName": "Door",
+    "readerName": "Reader",
+    "eventName": "Event"
+  },
+  "readers": {
+    "doorNo": "Door Number",
+    "doorName": "Door Name"
+  },
+  "events": {
+    "eventTime": "Date",
+    "cardNo": "Card Number",
+    "eventName": "Event Name",
+    "eventDoorId": "Door",
+    "deviceSN": "Location Name",
+    "inOutStatus": "Direction"
+  },
+  "movement": {
+    "Tipo": "Type"
+  },
+  "alerts": {
+    "eventTime": "Date",
+    "eventName": "Event Name",
+    "estado": "Status",
+    "deviceSN": "Location Serial",
+    "name": "Door/Auxiliary",
+    "deviceName": "Location Name",
+    "inOutStatus": "Direction"
+  },
+  "activity": {
+    "createdDate": "Task Start",
+    "endDate": "Task End",
+    "eventName": "Task Name",
+    "estado": "Status",
+    "deviceSN": "Location Name"
+  },
+  "employeeVisitor": {
+    "dataInicio": "Start Date",
+    "dataFim": "End Date",
+    "dataSaida": "Exit Date",
+    "idVisitante": "Visitor",
+    "idPessoa": "Visited",
+    "idInserido": "Inserted By",
+    "obs": "Remarks",
+    "idViatura": "Vehicle",
+    "reboque": "Trailer",
+    "refDoc": "Reference/Document",
+    "visitanteNif": "Visitor Tax ID",
+    "visitanteCartaoEU": "Visitor EU Card",
+    "visitantePassaporte": "Visitor Passport",
+    "visitanteContacto": "Visitor Contact",
+    "empresaNome": "Company Name",
+    "empresaNif": "Company Tax ID",
+    "visitanteMotivo": "Visit Reason",
+    "estado": "Status"
+  },
+  "employeeVisitorMotive": {
+    "descricao": "Description"
+  },
+  "attendanceResults": {
+    "estado": "Status",
+    "tipo": "Type",
+    "date": "Date",
+    "weekday": "Weekday",
+    "enrollNumber": "Number",
+    "employeeName": "Name",
+    "saldo": "Balance"
+  },
+  "attendanceUpdates": {
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+  "attendanceTime": {
+    "tipo": "Type",
+    "codigo": "Code",
+    "nome": "Name",
+    "sigla": "Acronym",
+    "cor": "Color",
+    "createdDate": "Creation Date"
+  },
+  "attendanceTimePeriod": {
+    "idHorario": "Schedule ID",
+    "activo": "Active",
+    "nome": "Name",
+    "tipo": "Type",
+    "inicio": "Start",
+    "fim": "End",
+    "diaProcessa": "Process Day",
+    "createdDate": "Creation Date"
+  },
+  "attendanceWorkPlan": {
+    "codigo": "Code",
+    "nome": "Name",
+    "tipo": "Type",
+    "createdDate": "Creation Date"
+  },
+  "codes": {
+    "valor": "Value",
+    "codigo": "Code",
+    "tipo": "Type",
+    "descricao": "Description"
+  },
+  "codesSeg": {
+    "data": "Date",
+    "inicio": "Start",
+    "fim": "End",
+    "valor": "Value",
+    "codigo": "Code",
+    "tipo": "Type",
+    "descricao": "Description"
+  },
+  "attendanceCodes": {
+    "codigo": "Code",
+    "descricao": "Description",
+    "tipo": "Type",
+    "subTipo": "Subtype",
+    "exporta": "Export",
+    "cor": "Color",
+    "sigla": "Acronym",
+    "rate": "Rate",
+    "unidade": "Unit",
+    "descSubAlim": "Meal Subsidy Discount",
+    "descSubTurno": "Shift Subsidy Discount",
+    "saldoIgnora": "Ignore Daily Balance",
+    "bhAuto": "Auto Hour Bank Deduction",
+    "bm": "Medical Leave",
+    "credResto": "Convert Remaining Credit",
+    "credRestoEfectivo": "Convert Remaining Effective Credit",
+    "transCredDesc": "Transfer Credit Deduction",
+    "hn": "Night Hour",
+    "tStamp": "Date"
+  },
+  "attendanceAbsences": {
+    "validado": "Validated",
+    "data": "Date",
+    "idPessoa": "Name",
+    "idDep": "Department",
+    "dataInicio": "Start Date",
+    "dataFim": "End Date",
+    "dataPedido": "Request Date",
+    "dataValidado": "Validation Date",
+    "idValidado": "Validated By",
+    "idPlano": "Plan",
+    "idHorario": "Schedule",
+    "idCod": "Code",
+    "tipo": "Type",
+    "dataRespValidado": "Response Validation Date",
+    "respValidado": "Response Validated",
+    "idRespValidado": "Validator",
+    "pagar": "Payment Authorized",
+    "credFeriasMesAnterior": "Previous Month Vacation Credit",
+    "obs": "Observation",
+    "obsResp": "Response Observation",
+    "obsFinal": "Final Observation",
+    "dataInserido": "Insertion Date",
+    "createdAt": "Creation Date"
+  },
+  "attendanceUpdatesRemove": {
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "enrollNumbers": "Numbers",
+    "tipo": "Type"
+  },
+  "suggestionEmail": {
+    "message": "Message"
+  },
+  "attendanceVacation": {
+    "dataInicio": "Start Date",
+    "dataFim": "End Date",
+    "idPessoa": "Name",
+    "idDep": "Department",
+    "idCod": "Code",
+    "ano": "Year",
+    "dataPedido": "Request Date",
+    "idValidado": "Validated By",
+    "validado": "Validated",
+    "dataRespValidado": "Response Validation Date",
+    "idRespValidado": "Validator",
+    "respValidado": "Response Validated",
+    "obsResp": "Response Observation",
+    "obsFinal": "Final Observation",
+    "obs": "Observation",
+    "tStamp": "Creation Date"
+  },
+  "patrolPoints": {
+    "sigla": "Acronym",
+    "nome": "Name",
+    "descricao": "Description",
+    "endereco": "Tag Number",
+    "tipo": "Type",
+    "idZ": "Zone",
+    "idF": "Employee",
+    "inicio": "Start Date",
+    "fim": "End Date",
+    "createdAt": "Creation Date"
+  },
+  "patrolRounds": {
+    "descricao": "Description",
+    "sigla": "Acronym",
+    "nome": "Name",
+    "cor": "Color",
+    "tipo": "Type"
+  },
+  "patrolPlan": {
+    "codigo": "Code",
+    "nome": "Name",
+    "tipo": "Type"
+  },
+  "patrolRegistry": {
+    "movDate": "Movement Date",
+    "movHour": "Movement Time",
+    "idPessoa": "Employee",
+    "idPonto": "Point",
+    "tipoPonto": "Point Type",
+    "endereco": "Address",
+    "obs": "Observation",
+    "idT": "Terminal",
+    "idPControl": "Control Point"
+  },
+  "patrolPlanning": {
+    "inicio": "Start",
+    "fim": "End",
+    "idPlano": "Plan",
+    "idPessoa": "Employee",
+    "isActive": "Active",
+    "createdAt": "Creation Date"
+  },
+  "patrolResults": {
+    "data": "Date",
+    "estado": "Status",
+    "tipo": "Type",
+    "idPessoa": "Employee"
+  },
+  "patrolResultsRound": {
+    "data": "Date",
+    "idPessoa": "Employee",
+    "idPlano": "Patrol plan"
+  },
+  "patrolResultsPoint": {
+    "idPonto": "Point"
+  },
+  "patrolDevice": {
+    "numero": "Number",
+    "nome": "Name",
+    "empresa": "Company",
+    "modelo": "Model",
+    "idFabricante": "Manufacturer",
+    "serialNumber": "Serial Number",
+    "foto": "Photo"
+  },
+  "buildCenter": {
+    "dataInicio": "Start Date",
+    "dataFim": "End Date",
+    "codigo": "Code",
+    "descricao": "Description",
+    "cor": "Color",
+    "deviceId": "Device",
+    "custo": "Cost",
+    "horaMinut": "Hour Minute",
+    "morada": "Address",
+    "localidade": "Location",
+    "codPostal": "Postal Code"
+  },
+  "buildResults": {
+    "inicio": "Start Date",
+    "fim": "End Date",
+    "enrollNumber": "Employee Number",
+    "employeeName": "Employee Name",
+    "custo": "Cost"
+  },
+  "acumSegm": {
+    "data": "Date",
+    "inicio": "Start",
+    "fim": "End",
+    "valor": "Value",
+    "enrollNumber": "Number",
+    "idPessoa": "Employee"
+  },
+  "buildAcumSegm": {
+    "data": "Date",
+    "inicio": "Start",
+    "fim": "End",
+    "valor": "Value",
+    "tipo": "Type",
+    "buildId": "Cost Center"
+  },
+  "attendanceTimePeriodCode": {
+    "tipo": "Type",
+    "idCod": "Code"
+  },
+  "attendanceTimePeriodCodeDay": {
+    "idCod": "Destination"
+  },
+  "resultsByDateAbsences": {
+    "data": "Date",
+    "enrollNumber": "Number",
+    "name": "Name"
+  },
+  "resultsByEmployees": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "data": "Date"
+  },
+  "resultsByEmployees8Movements": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "data": "Date"
+  },
+  "resultsbyEmployeesWithAbsence": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "data": "Date"
+  },
+  "resultsByEmployeesLackOfMovementsFields": {
+    "enrollNumber": "Employee Number",
+    "name": "Name",
+    "data": "Date",
+    "tipo": "Type"
+  },
+  "resultsByEmployeesFullAbsenceOrLack": {
+    "enrollNumber": "Employee Number",
+    "name": "Name",
+    "data": "Date",
+    "tipo": "Type"
+  },
+  "resultsByEmployeesPartialAbsenceOrLackAndCodes": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "data": "Date",
+    "codigo": "Code",
+    "descricao": "Description",
+    "valor": "Value"
+  },
+  "resultsByEmployeeAbsencesAndTotalsAccumulatedFields": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "data": "Date",
+    "tipo": "Type",
+    "saldo": "Balance",
+    "pagar": "Pay"
+  },
+  "resultsByEmployeeBalancesGroupedByWeek": {
+    "enrollNumber": "Number",
+    "name": "Name",
+    "data": "Date",
+    "tipo": "Type",
+    "saldo": "Balance",
+    "pagar": "Pay"
+  },
+  "attendanceAuthorization": {
+    "data": "Date",
+    "numero": "Number",
+    "nome": "Name",
+    "tipo": "Type",
+    "codigo": "Code",
+    "inicio": "Start",
+    "fim": "End",
+    "ano": "Year",
+    "observacoes": "Observations"
+  },
+  "attendanceVacationPlafond": {
+    "ano": "Year",
+    "totalDiasGlobal": "Days",
+    "cor": "Color",
+    "obs": "Notes"
+  },
+  "attendanceVacationByEmployee": {
+    "enrollNumber": "Number",
+    "employeeName": "Name",
+    "ano": "Year",
+    "totalDiasGlobal": "Total Global Days",
+    "diasGozados": "Days Taken",
+    "diasPorGozar": "Remaining Days",
+    "temPlafond": "Balance"
+  },
+  "attendanceHourBank": {
+    "idPessoa": "Name",
+    "codigo": "Code",
+    "descricao": "Description",
+    "sigla": "Acronym",
+    "valor": "Value",
+    "data": "Date",
+    "inicio": "Start",
+    "fim": "End",
+    "buildId": "Cost Center"
+  },
+  "attendanceHourBankByEmployee": {
+    "numero": "Number",
+    "idPessoa": "Name",
+    "saldo": "Balance"
+  },
+  "employeeLocation": {
+    "name": "Name",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "enabled": "Active"
+  },
+  "serverAccountAttendance": {
+    "dataInicio": "Start Date",
+    "dataFim": "End Date",
+    "numeroEquipamento": "Device"
+  },
+  "serverAccount": {
+    "createDate": "Creation Date",
+    "updateDate": "Update Date",
+    "nome": "Name",
+    "descricao": "Description"
+  },
+  "StoreAllCategories": {
+    "id": "ID Code",
+    "name": "Name",
+    "description": "Description",
+    "entities": "Entities",
+    "stores": "Stores"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "devapp",
+    "slug": "devapp",
+    "version": "1.0.0",
+    "scheme": "devapp",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jpcarvalhodev.devapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "A localização é usada para registar o ponto de assiduidade."
+      }
+    },
+    "android": {
+      "package": "com.jpcarvalhodev.devapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#2b2b2b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "A localização é usada para registar o ponto de assiduidade."
+        }
+      ],
+      "expo-localization",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/jpcarvalhodev-logo.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#2b2b2b"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

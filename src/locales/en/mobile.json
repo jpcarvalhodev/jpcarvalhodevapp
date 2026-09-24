@@ -1,0 +1,7 @@
+{
+  "continue": "Continue",
+  "module_not_available": "This module is not yet available in the mobile app.",
+  "no_permission": "You don't have permission to access this page.",
+  "select_placeholder": "Select",
+  "date_range_hint": "Tap the start day, then the end day."
+}

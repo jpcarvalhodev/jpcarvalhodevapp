@@ -42,3 +42,6 @@ yarn-error.*
 
 # URLs da API
 .env
+
+# Cline
+.clinerules

@@ -64,7 +64,3 @@ src/
 ```
 
 See [CLAUDE.md](CLAUDE.md) for a more detailed architecture guide.
-
-## License
-
-Released under the [MIT License](LICENSE).
